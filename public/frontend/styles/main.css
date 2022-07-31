@@ -1,0 +1,471 @@
+body {
+  font-family: "Assistant", sans-serif;
+  color: #071C4D;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+.text-primary {
+  color: #071C4D !important;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav {
+  margin-right: 50px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #071C4D;
+  font-weight: 600;
+}
+.navbar-light .btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+.navbar-light .btn-login {
+  background-color: #071C4D;
+  border-color: #071C4D;
+  color: #fff;
+}
+.navbar-light .btn-login:hover {
+  background-color: #273a65;
+  border-color: #122757;
+  color: #fff;
+}
+
+header {
+  padding-top: 180px;
+  padding-bottom: 165px;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  margin-top: -70px;
+}
+header h1 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+header p {
+  font-family: "Assistant", sans-serif;
+  color: #fff;
+  font-size: 22px;
+}
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+.section-stats .stats-detail {
+  background-color: #FFFFFF;
+  padding-top: 15px;
+  padding-left: 84px;
+}
+.section-stats .stats-detail h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.section-stats .stats-detail p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.section-wisata {
+  background-color: #071C4D;
+  margin-top: -50px;
+  padding-top: 150px;
+  height: 590px;
+}
+.section-wisata h1 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-wisata p {
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.section-wisata .wisata-list {
+  margin-top: 70px;
+}
+.section-wisata .wisata-list .card {
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+.section-wisata .wisata-list .card img {
+  border-radius: 0;
+}
+.section-wisata .wisata-list .card .card-img-overlay {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section-wisata .wisata-list .card .card-img-overlay h3,
+.section-wisata .wisata-list .card .card-img-overlay h5 {
+  font-family: "Assistant";
+}
+.section-wisata .wisata-list .card .card-img-overlay h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.section-wisata .wisata-list .card .card-img-overlay h5 {
+  font-size: 18px;
+}
+.section-wisata .wisata-list .card .card-img-overlay .btn-detail-wisata {
+  background-color: #FF9E53;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 34px;
+}
+.section-wisata .wisata-list .card .card-img-overlay .btn-detail-wisata:hover {
+  border-color: #FF9E53;
+  background-color: #eca46d;
+}
+
+.section-network {
+  padding-top: 273px;
+  margin-bottom: 100px;
+}
+.section-network .network-slogan h1 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-network .network-slogan p {
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-testimonial {
+  background-color: #FDFDFF;
+  padding-top: 40px;
+  margin-bottom: 100px;
+}
+.section-testimonial .testimonial-slogan h1 {
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-testimonial .testimonial-slogan p {
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.section-testimonial .testimonial-user {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.section-testimonial .testimonial-user .card {
+  border-radius: 11px;
+  border-color: #E3E3E3;
+}
+.section-testimonial .testimonial-user .card .card-body {
+  padding: 50px 29px;
+}
+.section-testimonial .testimonial-user .card .card-body img {
+  width: 120px;
+  height: 120px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.section-testimonial .testimonial-user .card .card-body h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.section-testimonial .testimonial-user .card .card-body p {
+  font-size: 26px;
+  font-weight: 300;
+  margin: 0 29px;
+  font-weight: lighter;
+}
+.section-testimonial .testimonial-user .card .footer {
+  font-size: 22px;
+  padding: 15px 0;
+  color: #6E6E6E;
+}
+.section-testimonial .btn-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 10px 38px;
+}
+.section-testimonial .btn-help:hover {
+  background-color: #d8d8d8;
+  border-color: #d8d8d8;
+  color: rgb(136, 136, 136);
+}
+.section-testimonial .btn-get-started {
+  background-color: #FF9E53;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 34px;
+}
+.section-testimonial .btn-get-started:hover {
+  border-color: #FF9E53;
+  background-color: #eca46d;
+}
+
+footer {
+  padding-top: 50px;
+  border: 1px solid #E3E3E3;
+  margin-top: 100px;
+}
+footer h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+footer ul {
+  padding-left: 0px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+footer ul li {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+footer p {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  font-size: 18px;
+  border-top: 1px solid #E3E3E3;
+}
+
+.section-detail {
+  min-height: 310px;
+  background-color: #E4E6EB;
+  margin-top: -70px;
+  padding-top: 110px;
+}
+.section-detail .breadcrumb-item {
+  font-size: 20px;
+}
+.section-detail .breadcrumb-item.active {
+  font-weight: 600;
+  color: #071C4D;
+}
+
+main {
+  margin-bottom: 100px;
+}
+main .section-detail-content {
+  margin-top: -130px;
+}
+main .section-detail-content .card-detail {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 11px;
+  padding: 30px;
+}
+main .section-detail-content .card-detail h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+main .section-detail-content .card-detail .country {
+  font-size: 18px;
+  color: #B1B1B1;
+  font-weight: lighter;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+main .section-detail-content .card-detail .img-header {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 24px;
+}
+main .section-detail-content .card-detail .more-pic img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section-detail-content .card-detail h2 {
+  font-size: 20px;
+}
+main .section-detail-content .detail-wisata h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+main .section-detail-content .detail-wisata p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #B1B1B1;
+}
+main .section-detail-content .category img {
+  width: 45px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .section-detail-content .category h5 {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+main .section-detail-content .category p {
+  font-weight: 300;
+  color: #B1B1B1;
+  margin: 0;
+}
+main .section-detail-content .category .border-end {
+  border-width: 1px !important;
+}
+main .section-detail-content .card {
+  padding: 0;
+}
+main .section-detail-content .detail-right {
+  padding: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+main .section-detail-content .detail-right .detail {
+  padding: 30px;
+}
+main .section-detail-content .detail-right .detail h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+main .section-detail-content .detail-right .detail .more {
+  width: 40px;
+  height: 40px;
+  background-color: #EDF2FF;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+}
+main .section-detail-content .detail-right .detail .more span {
+  font-weight: 600;
+  color: #071C4D;
+}
+main .section-detail-content .detail-right .detail .text-muted {
+  color: #B1B1B1 !important;
+}
+main .section-detail-content .detail-right .detail span {
+  font-size: 18px;
+  font-weight: 300;
+}
+main .section-detail-content .detail-right .btn-join {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: #FF9E53;
+  margin: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+main .section-detail-content .attendee {
+  margin-top: 29px;
+}
+main .section-detail-content .attendee table {
+  margin-bottom: 50px;
+}
+main .section-detail-content .attendee table td {
+  font-size: 18px;
+  font-family: "Assistant";
+  font-weight: 300;
+  color: #071C4D;
+}
+main .section-detail-content .attendee table tr {
+  margin-top: 20px;
+}
+main .section-detail-content .note h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 16px;
+}
+main .section-detail-content .note p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+main .checkout-information {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 1px solid #6E6E6E;
+}
+main .checkout-information .detail-information span {
+  font-size: 18px !important;
+  font-weight: lighter;
+}
+main .checkout-information .detail-information .payment-instruction h2 {
+  font-size: 20px !important;
+  font-weight: 600;
+  margin: 0;
+}
+main .checkout-information .detail-information .payment-instruction p {
+  font-size: 14px !important;
+  font-weight: lighter;
+}
+main .checkout-information .detail-information .admin-cards ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 12px;
+}
+main .checkout-information .detail-information .admin-cards ul li {
+  font-size: 16px;
+}
+main .checkout-information .detail-information .admin-cards img {
+  margin: 0;
+}
+main .checkout-information .btn-payment {
+  background-color: #FF9E53;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 0;
+}
+main .checkout-information .btn-payment:hover {
+  background-color: #eca46d;
+  border-color: #eca46d;
+}
+main .section-success-checkout {
+  margin-top: 100px;
+  margin-bottom: 127px;
+}
+main .section-success-checkout h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+main .section-success-checkout p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #B1B1B1;
+}
+main .section-success-checkout .btn-home {
+  margin-top: 51px;
+  background-color: #071C4D;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
